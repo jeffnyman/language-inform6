@@ -2,6 +2,7 @@ Inform 6 Language Grammar for Atom
 
 - Created by Jeff Nyman <jeffnyman@gmail.com>
 - https://github.com/jeffnyman/language-inform6
+- https://atom.io/packages/language-inform6
 
 This package permits syntax coloring of [Inform 6][i6] source code in the [Atom][] editor. This should also work with compatible syntax colorers, like TextMate 2, with some appropriate changes for the particulars of how grammar files are specified.
 
