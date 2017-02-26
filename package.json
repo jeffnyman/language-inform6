@@ -1,0 +1,17 @@
+{
+  "name": "language-inform6",
+  "version": "0.1.0",
+  "description": "Inform 6 Language Support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffnyman/language-inform6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffnyman/language-inform6/issues"
+  },
+  "license": "MIT"
+}
