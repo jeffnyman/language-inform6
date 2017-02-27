@@ -1,6 +1,9 @@
 'scopeName': 'source.inform6'
 'name': 'Inform 6'
-'fileTypes': ['inf']
+'fileTypes': [
+	'inf'
+	'h'
+]
 
 'patterns': [
   {

@@ -20,3 +20,15 @@ This language extension correctly handles:
 - Directives
 - Keywords
 - Function definitions
+
+Note that Inform 6 uses two file extensions, `inf` and `h`, that are very commonly used by multiple other languages.
+
+If you want to customize what language package is used when loading a file of a certain extension, Atom can be configured to do this. You'll need to manually edit your Atom `config.cson` file and add this if you want Inform 6 to be the default:
+
+    "*":
+      core:
+        customFileTypes:
+          "source.inform6": [
+            "inf"
+            "h"
+          ]
