@@ -36,6 +36,18 @@
     'name': 'keyword.other.directive.inform6'
     'match': '\\b(Abbreviate|Array|Attribute|Class|Constant|Default|End|Endif|Extend|Global|Ifdef|Ifndef|Ifnot|Iftrue|Iffalse|Import|Include|Link|Lowstring|Message|Object|Property|Release|Replace|Serial|Switches|Statusline(\\s+)(score|time)|System_file|Verb|Zcharacter)\\b'
   },
+	{
+		'name': 'keyword.other.property.inform6'
+		'match': '\\b(add_to_scope|after|article|articles|before|cant_go|capacity|d_to|daemon|describe|description|door_dir|door_to|e_to|each_turn|found_in|grammar|in_to|initial|inside_description|invent|life|list_together|name|n_to|ne_to|number|nw_to|orders|out_to|parse_name|plural|react_after|react_before|s_to|se_to|short_name|short_name_indef|sw_to|time_left|time_out|u_to|w_to|when_closed|when_open|when_on|when_off|with_key)\\b'
+	},
+	{
+		'name': 'keyword.other.attribute.inform6'
+		'match': '\\b(absent|animate|clothing|concealed|container|door|edible|enterable|female|general|light|lockable|locked|male|moved|neuter|open|openable|pluralname|proper|scenery|scored|static|supporter|switchable|talkable|transparent|visited|workflag|worn)\\b'
+	},
+	{
+		'name': 'keyword.other.action.inform6'
+		'match': '\\b(Pronouns|Quit|Restart|Restore|Save|Verify|ScriptOn|ScriptOff|NotifyOn|NotifyOff|Places|Objects|Score|FullScore|Version|LMode1|LMode2|LMode3|Look|Examine|Search|Inv|InvTall|InvWide|Take|Drop|Remove|PutOn|Insert|LetGo|Receive|Empty|EmptyT|Remove|Transfer|Go|Enter|GetOff|GoIn|Exit|Unlock|Lock|SwitchOn|SwitchOff|Open|Close|Disrobe|Wear|Eat|Wait|LookUnder|Listen|Taste|Touch|Pull|Push|Wave|Turn|PushDir|ThrowAt|ThrownAt|JumpOver|Tie|Drink|Fill|Attack|Swing|Blow|Rub|Set|SetTo|Buy|Climb|Squeeze|Burn|Dig|Cut|Consult|Tell|Answer|Ask|Give|Show|AskFor|WakeOther|Kiss|Sleep|Sing|WaveHands|Swim|Sorry|Strong|Mild|Jump|Think|Smell|Pray|VagueGo|Yes|No|Wake|Answer|Ask|Attack|Give|Kiss|Order|Show|Tell|ThrowAt|WakeOther)\\b'
+	},
   {
     'name': 'constant.numeric.inform6'
     'match': '\\b((\\$[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\\b'
