@@ -1,6 +1,6 @@
 {
   "name": "language-inform6",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Inform 6 Language Support in Atom",
   "engines": {
     "atom": "*"
